@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Local environment / secrets
+.env
+.env.*
+
+# Prototype backups and local check scripts
+first-resume*.html
+first-resume-complete*.js
+*.broken.bak.*
+__check_script*.js
+dev-server.log
+
+# Local launch helpers
+open-*.bat
+start-web.bat
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
